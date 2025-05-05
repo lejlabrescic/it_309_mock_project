@@ -1,1 +1,1 @@
-# it_309_mock_project
+# Testing Deployment & Releases (Versions)

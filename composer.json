@@ -1,0 +1,17 @@
+{
+    "name": "testuser/frontend-html-test",
+    "description": "PHPUnit tests for static HTML frontend pages",
+    "require-dev": {
+      "phpunit/phpunit": "9.5"
+    },
+    "autoload-dev": {
+      "psr-4": {
+        "Tests\\": "tests/"
+      }
+    },
+    "scripts": {
+      "test": "phpunit --bootstrap vendor/autoload.php tests/"
+    },
+    "license": "MIT"
+  }
+  
